@@ -1,6 +1,11 @@
 # frpc
 
 wget https://raw.githubusercontent.com/tdcomcl/frpc/main/install.sh
-chmomod +x install.sh
+chmod +x install.sh 
 
-./ininstall.sh -s frp.igromi.com -p 12000 -t $token 
+./install.sh -s frp.igromi.com -p 12000 -t token
+
+nano /etc/frp/frpc.ini
+
+
+systemctl restart frpc.service && systemctl status frpc.service 
