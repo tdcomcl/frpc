@@ -6,6 +6,16 @@ FRPC_VERSION="0.59.0"  # https://github.com/fatedier/frp/releases/
 # Exit on error
 set -e
 
+# Function to display the banner
+banner() {
+    echo "############################################################"
+    echo "#                                                          #"
+    echo "#                      IGROMI Installer                    #"
+    echo "#                                                          #"
+    echo "############################################################"
+    echo
+}
+
 # Install Packages
 install_packages() {
     # if we received packages to install, install them
