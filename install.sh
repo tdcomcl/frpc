@@ -115,7 +115,7 @@ local_ip = 127.0.0.1
 local_port = 443
 remote_port = 443
 EOF
-}
+
 
 # Check if we are root
 [ "$EUID" -ne 0 ] && { echo "Please run as root"; exit 1; }
