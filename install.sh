@@ -117,9 +117,6 @@ remote_port = 443
 EOF
 }
 
-banner() {
-}
-
 # Check if we are root
 [ "$EUID" -ne 0 ] && { echo "Please run as root"; exit 1; }
 
