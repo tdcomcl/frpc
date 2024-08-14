@@ -257,9 +257,4 @@ if [ -z "${FRP_TOKEN}" ]; then
 fi
 
 # Print out our errors if we have any
-if [ ! -z "${ERRORS}" ]; then
-    printf "\n== The following Errors Were Found ==\n"
-    for error in "${ERRORS[@]}"; do
-        printf "\n= ${error}\n"
-    done
-    exit 
+if [ ! -
