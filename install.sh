@@ -3,7 +3,7 @@
 # Coded by Jason Hawks <jason@fixedbit.com>
 
 # Set the version of FRP, but you can override this with -v or --version
-FRPC_VERSION="0.59.0"
+FRPC_VERSION="0.60.0"
 
 # Exit on error
 set -e
